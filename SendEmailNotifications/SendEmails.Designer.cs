@@ -56,29 +56,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 24);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(21, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 15);
+            this.label1.Size = new System.Drawing.Size(128, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Order Number";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 28);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(21, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 15);
+            this.label2.Size = new System.Drawing.Size(113, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Employee ID";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(412, 23);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.button1.Location = new System.Drawing.Point(578, 38);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(144, 22);
+            this.button1.Size = new System.Drawing.Size(206, 37);
             this.button1.TabIndex = 4;
             this.button1.Text = "Email Instructions";
             this.button1.UseVisualStyleBackColor = true;
@@ -92,11 +90,11 @@
             this.groupBox1.Controls.Add(this.tbOrderSearch);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(17, 21);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.groupBox1.Location = new System.Drawing.Point(24, 35);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.groupBox1.Size = new System.Drawing.Size(580, 106);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(829, 177);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Orders";
@@ -104,16 +102,18 @@
             // OrderDetailslbl
             // 
             this.OrderDetailslbl.AutoSize = true;
-            this.OrderDetailslbl.Location = new System.Drawing.Point(15, 77);
+            this.OrderDetailslbl.Location = new System.Drawing.Point(21, 128);
+            this.OrderDetailslbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.OrderDetailslbl.Name = "OrderDetailslbl";
-            this.OrderDetailslbl.Size = new System.Drawing.Size(0, 15);
+            this.OrderDetailslbl.Size = new System.Drawing.Size(0, 25);
             this.OrderDetailslbl.TabIndex = 7;
             // 
             // btnSearchOrder
             // 
-            this.btnSearchOrder.Location = new System.Drawing.Point(249, 22);
+            this.btnSearchOrder.Location = new System.Drawing.Point(356, 37);
+            this.btnSearchOrder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSearchOrder.Name = "btnSearchOrder";
-            this.btnSearchOrder.Size = new System.Drawing.Size(75, 23);
+            this.btnSearchOrder.Size = new System.Drawing.Size(107, 38);
             this.btnSearchOrder.TabIndex = 6;
             this.btnSearchOrder.Text = "Search";
             this.btnSearchOrder.UseVisualStyleBackColor = true;
@@ -121,10 +121,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(412, 56);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.button2.Location = new System.Drawing.Point(578, 93);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 22);
+            this.button2.Size = new System.Drawing.Size(206, 37);
             this.button2.TabIndex = 5;
             this.button2.Text = "Email New Passwords";
             this.button2.UseVisualStyleBackColor = true;
@@ -132,10 +132,10 @@
             // 
             // tbOrderSearch
             // 
-            this.tbOrderSearch.Location = new System.Drawing.Point(118, 22);
-            this.tbOrderSearch.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.tbOrderSearch.Location = new System.Drawing.Point(169, 37);
+            this.tbOrderSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbOrderSearch.Name = "tbOrderSearch";
-            this.tbOrderSearch.Size = new System.Drawing.Size(126, 23);
+            this.tbOrderSearch.Size = new System.Drawing.Size(178, 31);
             this.tbOrderSearch.TabIndex = 1;
             // 
             // groupBox2
@@ -145,11 +145,11 @@
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.tbEmployeeId);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(17, 138);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.groupBox2.Location = new System.Drawing.Point(24, 230);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.groupBox2.Size = new System.Drawing.Size(580, 106);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(829, 177);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Employee";
@@ -158,16 +158,18 @@
             // 
             this.EmpNameLbl.AutoSize = true;
             this.EmpNameLbl.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.EmpNameLbl.Location = new System.Drawing.Point(14, 70);
+            this.EmpNameLbl.Location = new System.Drawing.Point(20, 117);
+            this.EmpNameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.EmpNameLbl.Name = "EmpNameLbl";
-            this.EmpNameLbl.Size = new System.Drawing.Size(0, 15);
+            this.EmpNameLbl.Size = new System.Drawing.Size(0, 25);
             this.EmpNameLbl.TabIndex = 6;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(249, 24);
+            this.btnSearch.Location = new System.Drawing.Point(356, 40);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.Size = new System.Drawing.Size(107, 38);
             this.btnSearch.TabIndex = 5;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -175,10 +177,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(412, 66);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.button3.Location = new System.Drawing.Point(578, 111);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(144, 22);
+            this.button3.Size = new System.Drawing.Size(206, 37);
             this.button3.TabIndex = 4;
             this.button3.Text = "Email New Password";
             this.button3.UseVisualStyleBackColor = true;
@@ -186,19 +188,20 @@
             // 
             // tbEmployeeId
             // 
-            this.tbEmployeeId.Location = new System.Drawing.Point(118, 25);
-            this.tbEmployeeId.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.tbEmployeeId.Location = new System.Drawing.Point(169, 42);
+            this.tbEmployeeId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbEmployeeId.Name = "tbEmployeeId";
-            this.tbEmployeeId.Size = new System.Drawing.Size(126, 23);
+            this.tbEmployeeId.Size = new System.Drawing.Size(178, 31);
             this.tbEmployeeId.TabIndex = 3;
             // 
             // ErrorLabel
             // 
             this.ErrorLabel.AutoSize = true;
             this.ErrorLabel.ForeColor = System.Drawing.Color.Red;
-            this.ErrorLabel.Location = new System.Drawing.Point(17, 390);
+            this.ErrorLabel.Location = new System.Drawing.Point(24, 650);
+            this.ErrorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ErrorLabel.Name = "ErrorLabel";
-            this.ErrorLabel.Size = new System.Drawing.Size(81, 15);
+            this.ErrorLabel.Size = new System.Drawing.Size(125, 25);
             this.ErrorLabel.TabIndex = 8;
             this.ErrorLabel.Text = "Error Message";
             // 
@@ -209,11 +212,11 @@
             this.groupBox3.Controls.Add(this.btnSearchUsername);
             this.groupBox3.Controls.Add(this.tbUsername);
             this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Location = new System.Drawing.Point(17, 257);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.groupBox3.Location = new System.Drawing.Point(24, 428);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.groupBox3.Size = new System.Drawing.Size(567, 114);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Size = new System.Drawing.Size(810, 190);
             this.groupBox3.TabIndex = 9;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Company Administrator";
@@ -221,18 +224,17 @@
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
-            this.lblUsername.Location = new System.Drawing.Point(14, 75);
-            this.lblUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUsername.Location = new System.Drawing.Point(20, 125);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(0, 15);
+            this.lblUsername.Size = new System.Drawing.Size(0, 25);
             this.lblUsername.TabIndex = 4;
             // 
             // btnUsernamePassword
             // 
-            this.btnUsernamePassword.Location = new System.Drawing.Point(412, 75);
-            this.btnUsernamePassword.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.btnUsernamePassword.Location = new System.Drawing.Point(578, 125);
+            this.btnUsernamePassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUsernamePassword.Name = "btnUsernamePassword";
-            this.btnUsernamePassword.Size = new System.Drawing.Size(144, 22);
+            this.btnUsernamePassword.Size = new System.Drawing.Size(206, 37);
             this.btnUsernamePassword.TabIndex = 3;
             this.btnUsernamePassword.Text = "Email New Password";
             this.btnUsernamePassword.UseVisualStyleBackColor = true;
@@ -240,10 +242,10 @@
             // 
             // btnSearchUsername
             // 
-            this.btnSearchUsername.Location = new System.Drawing.Point(249, 38);
-            this.btnSearchUsername.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.btnSearchUsername.Location = new System.Drawing.Point(356, 63);
+            this.btnSearchUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSearchUsername.Name = "btnSearchUsername";
-            this.btnSearchUsername.Size = new System.Drawing.Size(75, 22);
+            this.btnSearchUsername.Size = new System.Drawing.Size(107, 37);
             this.btnSearchUsername.TabIndex = 2;
             this.btnSearchUsername.Text = "Search";
             this.btnSearchUsername.UseVisualStyleBackColor = true;
@@ -251,33 +253,32 @@
             // 
             // tbUsername
             // 
-            this.tbUsername.Location = new System.Drawing.Point(118, 38);
-            this.tbUsername.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.tbUsername.Location = new System.Drawing.Point(169, 63);
+            this.tbUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(124, 23);
+            this.tbUsername.Size = new System.Drawing.Size(175, 31);
             this.tbUsername.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 38);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(21, 63);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 15);
+            this.label3.Size = new System.Drawing.Size(91, 25);
             this.label3.TabIndex = 0;
             this.label3.Text = "Username";
             // 
             // SendNotifications
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(610, 417);
+            this.ClientSize = new System.Drawing.Size(871, 695);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.ErrorLabel);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "SendNotifications";
             this.Text = "Send Notifications";

@@ -93,7 +93,7 @@ namespace SendEmailNotifications
 
                                     using var smtp = new SmtpClient();
                                     smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                                    smtp.Authenticate("cmsnotify@biocareusa.com", "V3-info-");
+                                    smtp.Authenticate("cmsnotify@biocareusa.com", "Matrix_USA1_Ivan^10061");
                                     smtp.Send(email);
                                     smtp.Disconnect(true);
 
@@ -201,7 +201,7 @@ namespace SendEmailNotifications
 
                                         using var smtp = new SmtpClient();
                                         smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                                        smtp.Authenticate("cmsnotify@biocareusa.com", "V3-info-");
+                                        smtp.Authenticate("cmsnotify@biocareusa.com", "Matrix_USA1_Ivan^10061");
                                         smtp.Send(email);
                                         smtp.Disconnect(true);
 
@@ -302,7 +302,7 @@ namespace SendEmailNotifications
 
                 using var smtp = new SmtpClient();
                 smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                smtp.Authenticate("cmsnotify@biocareusa.com", "V3-info-");
+                smtp.Authenticate("cmsnotify@biocareusa.com", "Matrix_USA1_Ivan^10061");
                 smtp.Send(email);
                 smtp.Disconnect(true);
 
@@ -555,7 +555,7 @@ FROM tblsum", connection))
 
                 using var smtp = new SmtpClient();
                 smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                smtp.Authenticate("cmsnotify@biocareusa.com", "V3-info-");
+                smtp.Authenticate("cmsnotify@biocareusa.com", "Matrix_USA1_Ivan^10061");
                 smtp.Send(email);
                 smtp.Disconnect(true);
 
