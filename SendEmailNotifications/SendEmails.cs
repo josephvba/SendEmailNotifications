@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
+
 
 using MailKit.Net.Smtp;
 using MailKit.Security;
@@ -92,12 +94,21 @@ namespace SendEmailNotifications
                                     email.Body = builder.ToMessageBody();
 
                                     using var smtp = new SmtpClient();
-                                    smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                                    smtp.Authenticate("cmsnotify@biocareusa.com", "Matrix_USA1_Ivan^10061");
+                                    //smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
+                                    //smtp.Authenticate("cmsnotify@biocareusa.com", "Cuf45200");
+                                    //smtp.Send(email);
+                                    //smtp.Disconnect(true);
+
+                                    // Amazon AWS SE
+                                    smtp.Connect("email-smtp.us-east-2.amazonaws.com", 587, SecureSocketOptions.StartTls);
+                                    smtp.Authenticate("AKIA3BVAMOMEZ2XT5YO6", "BCxJAQN7ZCzZJjvArEav7K0nSrNi+SjPR3b9Z96aLzYI");
                                     smtp.Send(email);
                                     smtp.Disconnect(true);
 
+
+
                                     ErrorLabel.Text = string.Format("Instructions Sent to {0} to {1}", employeeName, employeeEmail);
+                                    Thread.Sleep(1000);
                                 }
 
                             }
@@ -200,12 +211,21 @@ namespace SendEmailNotifications
                                         email.Body = builder.ToMessageBody();
 
                                         using var smtp = new SmtpClient();
-                                        smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                                        smtp.Authenticate("cmsnotify@biocareusa.com", "Matrix_USA1_Ivan^10061");
+                                        //smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
+                                        //smtp.Authenticate("cmsnotify@biocareusa.com", "Cuf45200");
+                                        //smtp.Send(email);
+                                        //smtp.Disconnect(true);
+
+                                        // Amazon AWS SE
+                                        smtp.Connect("email-smtp.us-east-2.amazonaws.com", 587, SecureSocketOptions.StartTls);
+                                        smtp.Authenticate("AKIA3BVAMOMEZ2XT5YO6", "BCxJAQN7ZCzZJjvArEav7K0nSrNi+SjPR3b9Z96aLzYI");
                                         smtp.Send(email);
                                         smtp.Disconnect(true);
 
+
+
                                         ErrorLabel.Text = string.Format("Message Sent to {0} to {1}", employeeName, employeeEmail);
+                                        Thread.Sleep(1000);
                                     }
                                 }
 
@@ -302,9 +322,16 @@ namespace SendEmailNotifications
 
                 using var smtp = new SmtpClient();
                 smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                smtp.Authenticate("cmsnotify@biocareusa.com", "Matrix_USA1_Ivan^10061");
+                smtp.Authenticate("cmsnotify@biocareusa.com", "Cuf45200");
                 smtp.Send(email);
                 smtp.Disconnect(true);
+
+                // Amazon AWS SE
+                //smtp.Connect("email-smtp.us-east-2.amazonaws.com", 587, SecureSocketOptions.StartTls);
+                //smtp.Authenticate("AKIA3BVAMOMEZ2XT5YO6", "BCxJAQN7ZCzZJjvArEav7K0nSrNi+SjPR3b9Z96aLzYI");
+                //smtp.Send(email);
+                //smtp.Disconnect(true);
+
 
                 ErrorLabel.Text = string.Format("Message Sent to {0} to {1}", employeeName, employeeEmail);
             }
@@ -555,7 +582,7 @@ FROM tblsum", connection))
 
                 using var smtp = new SmtpClient();
                 smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                smtp.Authenticate("cmsnotify@biocareusa.com", "Matrix_USA1_Ivan^10061");
+                smtp.Authenticate("cmsnotify@biocareusa.com", "Cuf45200");
                 smtp.Send(email);
                 smtp.Disconnect(true);
 
